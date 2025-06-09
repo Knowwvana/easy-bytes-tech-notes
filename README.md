@@ -15,7 +15,7 @@ This repository is a personal knowledgebase and developer reference that documen
 ### 🐙 GitHub
 - ### 1. [🧹 How to Delete GitHub Unused Branches](./git/deleting-branches.md)
 
-> A step-by-step guide to safely delete local and remote branches in GitHub and clean up clutter.
+        > A step-by-step guide to safely delete local and remote branches in GitHub and clean up clutter.
 - [Git Commands to Push Feature Branch to Main](./github/merge-feature-to-main.md)
   
 
