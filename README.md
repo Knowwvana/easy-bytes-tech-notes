@@ -4,36 +4,38 @@ Welcome to **Easy Bytes**, a curated collection of developer notes, practical gu
 
 This repository is a personal knowledgebase and developer reference that documents solutions, setup steps, best practices, and learnings from real-world development.
 
+---
+
 ## 🧭 Purpose
 
-* 📖 To document and reference frequently used steps.
-* 🧠 To serve as a second brain for learning.
-* 📣 To enable content reuse for blog posts, LinkedIn shares, or technical discussions.
+- 📖 To document and reference frequently used steps.
+- 🧠 To serve as a second brain for learning.
+- 📣 To enable content reuse for blog posts, LinkedIn shares, or technical discussions.
 
-## 📂 Topics Covered
+---
 
-* ✅ Git & GitHub
-* ✅ ASP.NET Core & Blazor
-* ✅ GCP (Google Cloud Platform)
-* ✅ PostgreSQL & Superset
-* ✅ IAM (Identity & Access Management)
-* ...and more coming soon
+## 📚 Table of Contents
+
+### 🐙 GitHub
+
+| # | Article | Description |
+|--:|---------|-------------|
+| 1 | [🧹 How to Delete GitHub Unused Branches](./Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
 
 ---
 
 ## 📄 Articles
 
-### 1. [🧹 How to Delete GitHub Unused Branches](./git/deleting-branches.md)
-
-> A step-by-step guide to safely delete local and remote branches in GitHub and clean up clutter.
-
-More articles coming soon!
+More categories and articles coming soon:  
+👉 `blazor/`, `gcp/`, `postgres/`, `linux/`, `security/`, `infra-as-code/`, etc.
 
 ---
 
 ## 🤝 Contributing
 
-This is a personal repo, but suggestions via Issues or Discussions are welcome.
+This is a personal repo, but suggestions via [Issues](https://github.com/Trustiify/easy-bytes-tech-notes/issues) or Discussions are welcome.
+
+---
 
 ## 📜 License
 
@@ -41,5 +43,5 @@ This is a personal repo, but suggestions via Issues or Discussions are welcome.
 
 ---
 
-Made with ❤️ by **Atul Gupta**
+Made with ❤️ by **Atul Gupta**  
 📬 Connect: [LinkedIn](https://www.linkedin.com/in/atul-gupta-28339431/)
