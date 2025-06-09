@@ -20,7 +20,7 @@ This repository is a personal knowledgebase and developer reference that documen
 
 | # | Article | Description |
 |--:|---------|-------------|
-| 1 | [🧹 How to Delete GitHub Unused Branches](./docs/Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
+| 1 | [🧹 How to Delete GitHub Unused Branches](./Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
 
 ---
 
