@@ -1,4 +1,4 @@
-# 📘 Easy Bytes – Tech Notes for Atul
+# 📘 Easy Bytes – Tech Notes by Atul
 
 Welcome to **Easy Bytes**, a curated collection of developer notes, practical guides, and troubleshooting tips by **Atul Gupta**.
 
