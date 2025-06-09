@@ -42,4 +42,4 @@ This is a personal repo, but suggestions via Issues or Discussions are welcome.
 ---
 
 Made with ❤️ by **Atul Gupta**
-📬 Connect: [LinkedIn](https://www.linkedin.com/in/atul0085)
+📬 Connect: [LinkedIn](https://www.linkedin.com/in/atul-gupta-28339431/)
