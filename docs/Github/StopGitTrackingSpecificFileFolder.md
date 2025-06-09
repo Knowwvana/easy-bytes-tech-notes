@@ -1,7 +1,6 @@
 ---
 
-"📁 How to Remove Tracked Folder from Git After Adding to .gitignore"
-permalink: /docs/remove-folder-after-gitignore/
+"📁 How to Stop a folder or file from being tracked in Git"
 -----------------------------------------------
 
 If you've added a folder (e.g., `/publish`) to `.gitignore` but it is still being tracked in GitHub, follow these steps to properly remove it.
