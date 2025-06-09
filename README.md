@@ -10,22 +10,18 @@ This repository is a personal knowledgebase and developer reference that documen
 * 🧠 To serve as a second brain for learning.
 * 📣 To enable content reuse for blog posts, LinkedIn shares, or technical discussions.
 
-## 📂 Topics Covered
+## 📚 Table of Contents
 
-* ✅ Git & GitHub
-* ✅ ASP.NET Core & Blazor
-* ✅ GCP (Google Cloud Platform)
-* ✅ PostgreSQL & Superset
-* ✅ IAM (Identity & Access Management)
-* ...and more coming soon
+### 🐙 GitHub
+- ### 1. [🧹 How to Delete GitHub Unused Branches](./git/deleting-branches.md)
 
----
+> A step-by-step guide to safely delete local and remote branches in GitHub and clean up clutter.
+- [Git Commands to Push Feature Branch to Main](./github/merge-feature-to-main.md)
+  
 
 ## 📄 Articles
 
-### 1. [🧹 How to Delete GitHub Unused Branches](./git/deleting-branches.md)
 
-> A step-by-step guide to safely delete local and remote branches in GitHub and clean up clutter.
 
 More articles coming soon!
 
