@@ -13,15 +13,14 @@ This repository is a personal knowledgebase and developer reference that documen
 - 📣 To enable content reuse for blog posts, LinkedIn shares, or technical discussions.
 
 ---
-https://github.com/Trustiify/easy-bytes-tech-notes/blob/main/Github/delete-unsed-branched.md
+
 ## 📚 Table of Contents
 
 ### 🐙 GitHub
 
 | # | Article | Description |
 |--:|---------|-------------|
-| 1 | [🧹 How to Delete GitHub Unused Branches](./github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
-| 2 | [🔀 Merge Feature Branch to Main](./github/merge-feature-to-main.md) | Git commands to push changes from a feature branch into `main` |
+| 1 | [🧹 How to Delete GitHub Unused Branches](./Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
 
 ---
 
