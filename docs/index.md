@@ -22,6 +22,7 @@ This repository is a personal knowledgebase and developer reference that documen
 |--:|---------|-------------|
 | 1 | [🧹 How to Delete GitHub Unused Branches](./Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
 | 2 | [🧹 How to Stop Tracking a Folder or file in Github](./Github/StopGitTrackingSpecificFileFolder.md) | Safely Stop Tracking of already tracked files or folders in Github |
+| 3 | [🔍 Test Remote Branch Code Locally Before Merge](./Github/Fetch_Test_RemoteBranchCode_Locally_beforeMerge.md) | Step-by-step guide to test a remote-only branch locally before merging to main |
 
 ---
 
