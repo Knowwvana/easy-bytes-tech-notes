@@ -21,6 +21,9 @@ This repository is a personal knowledgebase and developer reference that documen
 | # | Article | Description |
 |--:|---------|-------------|
 | 1 | [🧹 How to Delete GitHub Unused Branches](./Github/delete-unsed-branched.md) | Safely delete local and remote branches, clean up Git clutter |
+| 2 | [📁 How to Stop Tracking a File or Folder in Git](./Github/StopGitTrackingSpecificFileFolder.md) | Properly remove files or folders from Git tracking even if added previously |
+| 3 | [🌿 Test New Remote Branch Code Locally](./Github/Test_New_Remote_Branch_Code_Locally.md) | Learn how to safely fetch and test a remote branch without affecting local changes |
+| 4 | [🔐 Azure AD SSO Issue with Sailpoint AADSTS75011 – RequestedAuthnContext](../Sailpoint/AzureAD-SAML-RequestedAuthnContext.md) | Resolve AADSTS75011 error when using multiple SPs with Azure AD as IDP |
 
 ---
 
