@@ -1,6 +1,6 @@
 # 📘 Easy Bytes – Tech Notes for Atul
 
-Welcome to **Easy Bytes**, a curated collection of developer notes, practical guides, and troubleshooting tips by **Atul Gupta**.
+Welcome to **Easy Bytes**, a curated collection of developer notes, practical guides,known issues and troubleshooting tips by **Atul Gupta**.
 
 This repository is a personal knowledgebase and developer reference that documents solutions, setup steps, best practices, and learnings from real-world development.
 
