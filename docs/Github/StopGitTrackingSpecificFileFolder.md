@@ -1,4 +1,7 @@
 ---
+title: "How to Stop a Folder or File from Being Tracked in Git"
+description: "Steps to untrack committed files and folders using Git"
+---
 
 # 📁 How to Stop a Folder or File from Being Tracked in Git
 
@@ -7,8 +10,8 @@ If you've added a folder (like `/publish`) to `.gitignore` but it still appears 
 > ⚠️ Simply adding a file or folder to `.gitignore` **won't remove it from Git** if it was already committed. You must manually untrack it.
 
 ---
-
 ## ✅ Step-by-Step Instructions
+...
 
 ### 1. **Untrack the Folder or File in Git**
 
