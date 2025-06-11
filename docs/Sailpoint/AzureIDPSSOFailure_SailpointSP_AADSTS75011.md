@@ -122,17 +122,6 @@ Once the `RequestedAuthnContext` is removed, Azure AD will accept any valid user
 * SailPoint IdentityIQ SAML Configuration
 
 ---
-
-## 📘 Document Footer
-
-## 📘 *Easy Bytes by Atul Gupta*  
-This guide is part of the **Easy Bytes** knowledge series — thoughtfully crafted by **Atul Gupta**, IAM Architect & Full-Stack Developer.
-
-🔗 [Explore more](https://github.com/atul0085) | 📬 [Connect](https://www.linkedin.com/in/atul0085)  
-🛠️ Focus Areas: **IAM**, **SailPoint**, **ForgeRock**, **Okta**, **Azure AD**, **Blazor**, **Cloud**, **Automation**
-> _“Sharpening skills. Sharing solutions. Securing identities.”_
----
-
 **📄 Document Info**  
 
 *Author:* Atul Gupta  
@@ -141,7 +130,18 @@ This guide is part of the **Easy Bytes** knowledge series — thoughtfully craft
 *Use Case:* Multi-SP to Azure IDP session sharing  
 *Tooling:* SailPoint IdentityIQ, Azure AD, SAML Tracer, PowerShell  
 
-> _“When two Service Providers share a session with the same IDP, alignment in AuthN context becomes critical.”_  
+> _“When two Service Providers share a session with the same IDP, alignment in AuthN context becomes critical.”_ 
+
+---
+## 📘 * Document Footer - Easy Bytes by Atul Gupta*  
+This guide is part of the **Easy Bytes** knowledge series — thoughtfully crafted by **Atul Gupta**, IAM Architect & Full-Stack Developer.
+
+🔗 [Explore more](https://github.com/atul0085) | 📬 [Connect](https://www.linkedin.com/in/atul0085)  
+🛠️ Focus Areas: **IAM**, **SailPoint**, **ForgeRock**, **Okta**, **Azure AD**, **Blazor**, **Cloud**, **Automation**
+> _“Sharpening skills. Sharing solutions. Securing identities.”_
+
+
+ 
 
 
 
