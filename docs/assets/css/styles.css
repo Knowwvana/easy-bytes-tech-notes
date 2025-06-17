@@ -1,12 +1,31 @@
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
 }
-header {
-  background: linear-gradient(135deg, #0062E6, #33AEFF);
+
+.hero {
+  background: linear-gradient(135deg, #0052D4, #65C7F7);
 }
+
 .card {
-  transition: box-shadow 0.2s;
+  transition: all 0.2s ease;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+
 .card:hover {
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #0069ed;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056c1;
 }
