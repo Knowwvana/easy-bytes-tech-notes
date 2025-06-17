@@ -1,0 +1,12 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+header {
+  background: linear-gradient(135deg, #0062E6, #33AEFF);
+}
+.card {
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
