@@ -57,9 +57,7 @@ This evolution ensures that IdentityNow’s simplicity and cloud-first design ar
 | **Offering**                | **Deployment**          | **Target Audience**                     | **Core Focus**                              | **Scalability** | **Customization**       |
 |-----------------------------|-------------------------|-----------------------------------------|---------------------------------------------|-----------------|-------------------------|
 | **ISC Standard** 🌱         | Cloud (SaaS)            | Small to mid-sized businesses           | Basic IGA, SSO, password management         | High 📈         | Configuration-based     |
-| **ISC Business** 📈         | Cloud (SaaS)            | Mid-sized enterprises                  ҷ
-
- | Advanced IGA, AI insights, RBAC             | High 📈         | Configuration-based     |
+| **ISC Business** 📈         | Cloud (SaaS)            | Mid-sized enterprises                   | Advanced IGA, AI insights, RBAC             | High 📈         | Configuration-based     |
 | **ISC Business Plus** 🚀    | Cloud (SaaS)            | Large enterprises, multi-cloud           | Comprehensive IGA, CIEM, non-human identities | Highest 🌟     | High (extensibility)    |
 | **IdentityIQ** 🖥️          | On-premises/hybrid      | Enterprises with legacy systems          | Robust IGA, deep customization              | Moderate ⚖️     | Code-level customization |
 | **NERM** 🤝                 | Cloud (SaaS)            | Organizations with external identities   | Non-employee identity governance            | High 📈         | Configuration-based     |
