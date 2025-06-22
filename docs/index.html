@@ -23,7 +23,7 @@
   </nav>
 
   <!-- Hero -->
-  <header class="hero text-white text-center py-5">
+  <header class="hero text-white text-center py-5 bg-primary">
     <div class="container">
       <h1 class="display-5 fw-bold">Easy Bytes Tech Notes</h1>
       <p class="lead">IAM | .NET | GitHub – Guides, Fixes, and Know-How</p>
@@ -33,7 +33,26 @@
   <!-- Content -->
   <main class="container-lg py-5">
     <h2 class="mb-4">🔥 Latest Posts</h2>
-    <div id="postList" class="row g-4"></div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fixing SailPoint Federated SSO Error: AADSTS75011</td>
+            <td>Resolve Azure AD SSO errors by updating SAML AuthnContext in SailPoint IdentityIQ.</td>
+            <td><a href="posts/fixing-sailpoint-aadsts75011.html" target="_blank">Read Article</a></td>
+          </tr>
+          <!-- Add more rows below as new posts are created -->
+        </tbody>
+      </table>
+    </div>
   </main>
 
   <!-- Footer -->
