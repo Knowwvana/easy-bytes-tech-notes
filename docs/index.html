@@ -2,105 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Easy Bytes Tech Notes</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <style>
-    #searchInput {
-      max-width: 400px;
-      margin: 30px auto;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Easy Bytes Tech Wiki</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <!-- Common Header -->
-  <div id="header-placeholder"></div>
 
-  <!-- Main Content -->
-  <main class="container-lg py-5">
-    <h2 class="mb-4">🔥 Latest Posts</h2>
-    <input type="text" id="searchInput" class="form-control" placeholder="Search articles..." />
+<!-- Header Include -->
+<div data-include-html="header.html"></div>
 
-    <!-- SailPoint Articles -->
-    <section id="sailpoint" class="mb-5">
-      <h3 class="mb-3 border-bottom pb-2">🔐 SailPoint</h3>
-      <div class="table-responsive">
-        <table class="table table-bordered table-hover align-middle searchable">
-          <thead class="table-dark">
-            <tr>
-              <th>Title</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>SailPoint Offerings Comparison</td>
-              <td><a href="docs/Sailpoint/SailpointOfferings_Comparision.md" target="_blank">Open</a></td>
-            </tr>
-            <tr>
-              <td>Fixing SailPoint Federated SSO Error: AADSTS75011</td>
-              <td><a href="docs/Sailpoint/SailpointSSOError_AADSTS75011.md" target="_blank">Open</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+<!-- Main Content -->
+<main class="container my-5">
+  <div class="text-center mb-5">
+    <h2 class="display-6 fw-bold">🔍 Explore Easy Bytes Knowledgebase</h2>
+    <p class="lead">Curated tech notes for Identity, Cloud, Git, .NET and more.</p>
+    <input type="text" id="searchInput" class="form-control w-50 mx-auto" placeholder="Search articles...">
+  </div>
 
-    <!-- GitHub Articles -->
-    <section id="github" class="mb-5">
-      <h3 class="mb-3 border-bottom pb-2">🐙 GitHub</h3>
-      <div class="table-responsive">
-        <table class="table table-bordered table-hover align-middle searchable">
-          <thead class="table-dark">
-            <tr>
-              <th>Title</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Delete Unused Branches</td>
-              <td><a href="docs/Github/delete-unsed-branched.md" target="_blank">Open</a></td>
-            </tr>
-            <tr>
-              <td>Fetch & Test Remote Branch Code Locally Before Merge</td>
-              <td><a href="docs/Github/Fetch_Test_RemoteBranchCode_Locally_beforeMerge.md" target="_blank">Open</a></td>
-            </tr>
-            <tr>
-              <td>Stop Git from Tracking Specific File or Folder</td>
-              <td><a href="docs/Github/StopGitTrackingSpecificFileFolder.md" target="_blank">Open</a></td>
-            </tr>
-            <tr>
-              <td>Test New Remote Branch Code Locally</td>
-              <td><a href="docs/Github/Test_New_Remote_Branch_Code_Locally.md" target="_blank">Open</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
+  <section class="mb-5">
+    <h3>📁 SailPoint</h3>
+    <table class="table table-hover table-bordered align-middle">
+      <thead class="table-dark">
+        <tr><th>Title</th><th>Description</th><th>Link</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SailPoint Offerings Comparison</td>
+          <td>Comparison of SailPoint IIQ, IdentityNow, ISC Atlas</td>
+          <td><a href="docs/Sailpoint/SailpointOfferings_Comparision.md" target="_blank">Open</a></td>
+        </tr>
+        <tr>
+          <td>Fixing SailPoint Federated SSO Error: AADSTS75011</td>
+          <td>How to resolve Azure AD AuthnContext mismatch in SAML</td>
+          <td><a href="docs/Sailpoint/SailpointSSOError_AADSTS75011.md" target="_blank">Open</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-  <!-- Common Footer -->
-  <div id="footer-placeholder"></div>
+  <section>
+    <h3>📁 GitHub</h3>
+    <table class="table table-hover table-bordered align-middle">
+      <thead class="table-dark">
+        <tr><th>Title</th><th>Description</th><th>Link</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stop Git from Tracking a Folder</td>
+          <td>Steps to remove folder from GitHub version control</td>
+          <td><a href="docs/Github/StopGitTrackingSpecificFileFolder.md" target="_blank">Open</a></td>
+        </tr>
+        <tr>
+          <td>Delete Unused Branches</td>
+          <td>Remove stale branches locally and remotely in Git</td>
+          <td><a href="docs/Github/delete-unsed-branched.md" target="_blank">Open</a></td>
+        </tr>
+        <tr>
+          <td>Fetch & Test Remote Branch Code Locally</td>
+          <td>Safely check a feature branch before merging</td>
+          <td><a href="docs/Github/Fetch_Test_RemoteBranchCode_Locally_beforeMerge.md" target="_blank">Open</a></td>
+        </tr>
+        <tr>
+          <td>Test New Remote Branch Code</td>
+          <td>Procedure to test newly pushed GitHub code locally</td>
+          <td><a href="docs/Github/Test_New_Remote_Branch_Code_Locally.md" target="_blank">Open</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
 
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    fetch("includes/header.html")
+<!-- Footer Include -->
+<div data-include-html="footer.html"></div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // HTML include loader
+  document.querySelectorAll('[data-include-html]').forEach(el => {
+    fetch(el.getAttribute('data-include-html'))
       .then(res => res.text())
-      .then(data => document.getElementById("header-placeholder").innerHTML = data);
+      .then(data => el.innerHTML = data);
+  });
 
-    fetch("includes/footer.html")
-      .then(res => res.text())
-      .then(data => document.getElementById("footer-placeholder").innerHTML = data);
-
-    document.getElementById("searchInput").addEventListener("input", function () {
-      const value = this.value.toLowerCase();
-      document.querySelectorAll(".searchable tbody tr").forEach(function (row) {
-        row.style.display = row.textContent.toLowerCase().includes(value) ? "" : "none";
-      });
+  // Basic search functionality
+  document.getElementById("searchInput").addEventListener("keyup", function () {
+    const filter = this.value.toLowerCase();
+    document.querySelectorAll("table tbody tr").forEach(row => {
+      row.style.display = Array.from(row.cells).some(td =>
+        td.textContent.toLowerCase().includes(filter)) ? "" : "none";
     });
-  </script>
+  });
+</script>
 </body>
 </html>
