@@ -206,9 +206,9 @@ Follow **EasyBytes Tech** for more identity security guides and tech insights! �
 This guide is part of the **EasyBytes Tech Knowledge Series**, meticulously crafted by **Atul Gupta**, an Identity and Access Management (IAM) Architect with extensive experience in securing enterprise environments. At **EasyBytes Tech**, we demystify complex technologies, delivering actionable insights to empower your organization’s identity security journey.
 
 🔗 **Connect & Explore**  
-- 🌐 [EasyBytes Tech Website](https://easybytes.tech)  
-- 📬 [Email Atul](mailto:atul@easybytes.tech)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/atul-gupta-iam)  
+- 🌐 [EasyBytes Tech Website](https://github.com/Trustiify)  
+- 📬 [Email Atul](mailto:atul0085@gmail.com)  
+- 💼 [LinkedIn](linkedin.com/in/atul-gupta-28339431/)  
 
 🛠️ **Expertise Areas**:  
 - Identity Governance: SailPoint, Saviynt, Okta  

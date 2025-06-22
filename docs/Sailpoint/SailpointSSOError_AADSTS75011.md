@@ -180,6 +180,6 @@ Once the `RequestedAuthnContext` is removed, Azure AD will accept any valid user
 ## 📘 * Document Footer - Easy Bytes by Atul Gupta*  
 This guide is part of the **Easy Bytes** knowledge series — thoughtfully crafted by **Atul Gupta**, IAM Architect & Full-Stack Developer.
 
-🔗 [Explore more](https://github.com/atul0085) | 📬 [Connect](https://www.linkedin.com/in/atul0085)  
+🔗 [Explore more](https://github.com/Trustiify) | 📬 [Connect](linkedin.com/in/atul-gupta-28339431/)  
 🛠️ Focus Areas: **IAM**, **SailPoint**, **ForgeRock**, **Okta**, **Azure AD**, **Blazor**, **Cloud**, **Automation**  
 > _“Sharpening skills. Sharing solutions. Securing identities.”_
