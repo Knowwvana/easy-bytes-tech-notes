@@ -4,64 +4,103 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Easy Bytes Tech Notes</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    #searchInput {
+      max-width: 400px;
+      margin: 30px auto;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">🚀 Easy Bytes</a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">All Posts</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Common Header -->
+  <div id="header-placeholder"></div>
 
-  <!-- Hero -->
-  <header class="hero text-white text-center py-5 bg-primary">
-    <div class="container">
-      <h1 class="display-5 fw-bold">Easy Bytes Tech Notes</h1>
-      <p class="lead">IAM | .NET | GitHub – Guides, Fixes, and Know-How</p>
-    </div>
-  </header>
-
-  <!-- Content -->
+  <!-- Main Content -->
   <main class="container-lg py-5">
     <h2 class="mb-4">🔥 Latest Posts</h2>
+    <input type="text" id="searchInput" class="form-control" placeholder="Search articles..." />
 
-    <div class="table-responsive">
-      <table class="table table-bordered table-hover align-middle">
-        <thead class="table-dark">
-          <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Fixing SailPoint Federated SSO Error: AADSTS75011</td>
-            <td>Resolve Azure AD SSO errors by updating SAML AuthnContext in SailPoint IdentityIQ.</td>
-            <td><a href="posts/fixing-sailpoint-aadsts75011.html" target="_blank">Read Article</a></td>
-          </tr>
-          <!-- Add more rows below as new posts are created -->
-        </tbody>
-      </table>
-    </div>
+    <!-- SailPoint Articles -->
+    <section id="sailpoint" class="mb-5">
+      <h3 class="mb-3 border-bottom pb-2">🔐 SailPoint</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle searchable">
+          <thead class="table-dark">
+            <tr>
+              <th>Title</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SailPoint Offerings Comparison</td>
+              <td><a href="docs/Sailpoint/SailpointOfferings_Comparision.md" target="_blank">Open</a></td>
+            </tr>
+            <tr>
+              <td>Fixing SailPoint Federated SSO Error: AADSTS75011</td>
+              <td><a href="docs/Sailpoint/SailpointSSOError_AADSTS75011.md" target="_blank">Open</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- GitHub Articles -->
+    <section id="github" class="mb-5">
+      <h3 class="mb-3 border-bottom pb-2">🐙 GitHub</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle searchable">
+          <thead class="table-dark">
+            <tr>
+              <th>Title</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Delete Unused Branches</td>
+              <td><a href="docs/Github/delete-unsed-branched.md" target="_blank">Open</a></td>
+            </tr>
+            <tr>
+              <td>Fetch & Test Remote Branch Code Locally Before Merge</td>
+              <td><a href="docs/Github/Fetch_Test_RemoteBranchCode_Locally_beforeMerge.md" target="_blank">Open</a></td>
+            </tr>
+            <tr>
+              <td>Stop Git from Tracking Specific File or Folder</td>
+              <td><a href="docs/Github/StopGitTrackingSpecificFileFolder.md" target="_blank">Open</a></td>
+            </tr>
+            <tr>
+              <td>Test New Remote Branch Code Locally</td>
+              <td><a href="docs/Github/Test_New_Remote_Branch_Code_Locally.md" target="_blank">Open</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-light text-center py-4 border-top">
-    <small class="text-muted">© 2025 Trustiify • Easy Bytes Tech Notes</small>
-  </footer>
+  <!-- Common Footer -->
+  <div id="footer-placeholder"></div>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  <script>
+    fetch("includes/header.html")
+      .then(res => res.text())
+      .then(data => document.getElementById("header-placeholder").innerHTML = data);
+
+    fetch("includes/footer.html")
+      .then(res => res.text())
+      .then(data => document.getElementById("footer-placeholder").innerHTML = data);
+
+    document.getElementById("searchInput").addEventListener("input", function () {
+      const value = this.value.toLowerCase();
+      document.querySelectorAll(".searchable tbody tr").forEach(function (row) {
+        row.style.display = row.textContent.toLowerCase().includes(value) ? "" : "none";
+      });
+    });
+  </script>
 </body>
 </html>
