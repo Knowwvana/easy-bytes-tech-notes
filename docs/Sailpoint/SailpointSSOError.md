@@ -50,7 +50,7 @@ This block tells Azure AD to accept **only** username/password authentication. I
 
 To resolve the mismatch, override the SAML configuration in SailPoint to use a relaxed AuthnContext:
 
-### ✅ Modified `SAMLConfig` (in SailPoint IIQ Configuration → SAML object):
+### ✅ •	Modified SAMLConfig (Debug → Object Browser --> Configuration Objects --> SAML object):
 
 ```xml
 <SAMLConfig
