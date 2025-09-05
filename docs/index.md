@@ -35,7 +35,7 @@ More categories and articles coming soon:
 
 ## 🤝 Contributing
 
-This is a personal repo, but suggestions via [Issues](https://github.com/Trustiify/easy-bytes-tech-notes/issues) or Discussions are welcome.
+This is a personal repo, but suggestions via [Issues](https://github.com/Knowwvana/easy-bytes-tech-notes/issues) or Discussions are welcome.
 
 ---
 
